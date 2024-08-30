@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="myF">The Fibbonaci Series</h1>
+    
+    <div id="Total"><h2>To see the entire Series</h2>
+        <label for="entry">Enter the no. of digits required.</label><br>
+        <input type="number" min="3" max="100" id="entry"><br>
+        <button type="submit" id="mySubmit" onclick="Fibbonaci()">Submit</button><br>
+        <list id="myH1"></list>
+    </div>
+
+    <div id="Single">
+        <h2>To see the n'th element</h2>
+        <label for="entry2">Enter the n'th number.</label><br>
+        <input type="number" min="3" max="100" id="entry2"><br>
+        <button type="submit" id="mySubmit" onclick="FibbonaciSingle()">Submit</button><br>
+        <list id="myH2"></list>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

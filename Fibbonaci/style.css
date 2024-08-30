@@ -1,0 +1,65 @@
+body{
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: blue;
+}
+label{
+    padding: 10px, 10px;
+    margin-bottom: 5px;
+}
+#entry{
+    border-radius: 5px;
+    box-shadow: 15%;
+    padding: 15px , 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 5em;
+}
+#entry2{
+    border-radius: 5px;
+    box-shadow: 15%;
+    padding: 15px , 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 5em;
+}
+#mySubmit{
+    background-color: aqua;
+    border-radius: 12px;
+    size: 2em;
+    color: rgb(255, 3, 3);
+    cursor: pointer;
+}
+#mySubmit:hover{
+    background-color: rgba(0, 60, 255, 0.963);
+    box-shadow: 80%;
+}
+#myH1{
+    color: rgb(0, 27, 86);
+    text-align: center;
+    border: beige;
+    margin-top: 5px;
+}
+#myH2{
+    color: rgb(0, 27, 86);
+    text-align: center;
+    border: beige;
+    margin-top: 5px;
+}
+#Total{
+    margin: auto;
+    text-align: match-parent;
+    border: 5px solid rgb(0, 0, 0) ;
+    height: 150px;
+    width: 450px;  
+}
+#Single{
+    margin: auto;
+    text-align: match-parent;
+    margin-top: 65px;
+    border: 5px solid rgb(0, 0, 0) ;
+    height: 150px;
+    width: 450px;  
+}

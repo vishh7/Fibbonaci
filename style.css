@@ -52,7 +52,7 @@ label{
     margin: auto;
     text-align: match-parent;
     border: 5px solid rgb(0, 0, 0) ;
-    height: 150px;
+    height: 165px;
     width: 450px;  
 }
 #Single{
@@ -60,6 +60,6 @@ label{
     text-align: match-parent;
     margin-top: 65px;
     border: 5px solid rgb(0, 0, 0) ;
-    height: 150px;
+    height: 165px;
     width: 450px;  
 }

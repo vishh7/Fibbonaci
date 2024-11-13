@@ -22,6 +22,7 @@ function Fibbonaci(){
         }
     }while (true);
     document.getElementById("myH1").textContent = num;
+    document.getElementById("labl").textContent = `The Series for the number ${entry}`;
 }
 function FibbonaciSingle(){
     entry = Number(document.getElementById("entry2").value) ;

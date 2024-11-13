@@ -22,7 +22,7 @@ function Fibbonaci(){
         }
     }while (true);
     document.getElementById("myH1").textContent = num;
-    document.getElementById("labl").textContent = `The Series for the number ${entry} is`;
+    document.getElementById("labl").textContent = `The Series for the number ${entry} is: `;
 }
 function FibbonaciSingle(){
     entry = Number(document.getElementById("entry2").value) ;
@@ -48,6 +48,7 @@ function FibbonaciSingle(){
         }
     }while (true);
     document.getElementById("myH2").textContent = num[num.length - 1];
+    document.getElementById("labl").textContent = `The ${entry}th numbere is: `;
 }
 
 
